@@ -1,43 +1,36 @@
-import { Routes, Route } from "react-router-dom";
-import LeftSide from "./components/LeftSide";
-import Navbar from "./components/Navbar";
-import Overview from "./pages/Overview";
-import Account from "./pages/Account";
-import Customers from "./pages/Customers";
-import Companies from "./pages/Companies";
-import Settings from "./pages/Settings";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Error from "./pages/Error";
+// App.js
 
+import React from "react";
+import LeftSide from "./components/Side/LeftSide";
+import Logo from "./components/Ui/Logo";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Side/Navbar";
+import Overview from "./pages/Overview";
+import ProfileCard from "../src/components/Ui/Cards/ProfileCard";
 function App() {
   return (
-    <div className="h-screen w-screen">
-      <div className="grid grid-cols-12 h-full w-full">
-        <div className="grid col-span-2 bg-[#1E2535]">
+    <div className="flex h-screen">
+      {/* Sol Kenar */}
+      <aside className="w-[279px] flex-shrink-0 bg-[#1E2535] fixed h-full">
+        <aside className="p-6 ">
+          <Logo />
           <LeftSide />
-        </div>
-        <div className="grid  col-span-10">
-          <div className="grid grid-rows-12">
-            {/* NAVBAR */}
-            <div className="grid  row-span-1  ">
-              <Navbar />
-            </div>
-            {/* Ana sayfa / Main page */}
-            <div className="grid  row-span-11  ">
-              {" "}
-              <Routes>
-                <Route path="/" element={<Overview />} />
-                <Route path="/customers" element={<Customers />} />
-                <Route path="/companies" element={<Companies />} />
-                <Route path="/account" element={<Account />} />
-                <Route path="/settings" element={<Settings />} />
-                <Route path="/login" element={<Login />} />
-                <Route path="/register" element={<Register />} />
-                <Route path="/error" element={<Error />} />
-              </Routes>
-            </div>
-          </div>
+        </aside>
+
+        <ProfileCard />
+      </aside>
+
+      {/* Sağ Taraf İçerik */}
+      <div className="flex-1 w-full h-full  ml-[279px]">
+        {/* Navbar */}
+        <Navbar />
+        <hr />
+
+        {/* Ana Ekran */}
+        <div className="p-4 my-[4%]">
+          <Routes>
+            <Route path="/" element={<Overview />} />
+          </Routes>
         </div>
       </div>
     </div>

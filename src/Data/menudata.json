@@ -1,0 +1,14 @@
+[
+  {
+    "pageName": "Ana Sayfa",
+    "path": "/",
+    "icon": "MdOutlineSignalCellularAlt"
+  },
+  { "pageName": "Üyeler", "path": "/customers", "icon": "MdPeopleAlt" },
+  { "pageName": "Companies", "path": "/companies", "icon": "MdDiscount" },
+  { "pageName": "Account", "path": "/account", "icon": "MdAccountCircle" },
+  { "pageName": "Settings", "path": "/settings", "icon": "IoMdSettings" },
+  { "pageName": "Login", "path": "/login", "icon": "IoLockClosed" },
+  { "pageName": "Register", "path": "/register", "icon": "IoPersonAdd" },
+  { "pageName": "Error", "path": "/error", "icon": "TbError404" }
+]

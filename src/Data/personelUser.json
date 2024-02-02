@@ -1,0 +1,112 @@
+[
+  {
+    "id": 0,
+    "name": "Bercan",
+    "surname": "Çalı",
+    "Job": "Barista",
+    "age": 21,
+    "score": 2,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 1,
+    "name": "Enes Can",
+    "surname": "Baştürk",
+    "Job": "Garson",
+    "age": 20,
+    "score": 1,
+    "region": "Sempati Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 2,
+    "name": "Sebahat",
+    "surname": "Güvenç",
+    "Job": "Bar Şefi",
+    "age": 99,
+    "score": 1,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "supervisor"
+  },
+  {
+    "id": 3,
+    "name": "Burak",
+    "surname": "T",
+    "Job": "Garson",
+    "age": 21,
+    "score": 1,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 4,
+    "name": "Mahmut",
+    "surname": "Abi",
+    "Job": "Müdür",
+    "age": 99,
+    "score": 1,
+    "region": "Sempati Sosyal Tesisleri",
+    "statu": "Manager"
+  },
+  {
+    "id": 5,
+    "name": "Emirhan",
+    "surname": "Demirci",
+    "Job": "Garson",
+    "age": 24,
+    "score": 1,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 6,
+    "name": "Efkan",
+    "surname": "Türkmen",
+    "Job": "Garson",
+    "age": 22,
+    "score": 1,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 7,
+    "name": "Fatih",
+    "surname": "Yıldız",
+    "Job": "Garson",
+    "age": 21,
+    "score": 1,
+    "region": "Sempati Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 1,
+    "name": "Enes Can",
+    "surname": "Baştürk",
+    "Job": "Garson",
+    "age": 20,
+    "score": 1,
+    "region": "Sempati Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 2,
+    "name": "Sebahat",
+    "surname": "Güvenç",
+    "Job": "Bar Şefi",
+    "age": 99,
+    "score": 1,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "supervisor"
+  },
+  {
+    "id": 3,
+    "name": "Burak",
+    "surname": "T",
+    "Job": "Garson",
+    "age": 21,
+    "score": 1,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "staff"
+  }
+]
