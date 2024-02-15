@@ -80,7 +80,7 @@
     "statu": "staff"
   },
   {
-    "id": 1,
+    "id": 8,
     "name": "Enes Can",
     "surname": "Baştürk",
     "Job": "Garson",
@@ -90,7 +90,7 @@
     "statu": "staff"
   },
   {
-    "id": 2,
+    "id": 9,
     "name": "Sebahat",
     "surname": "Güvenç",
     "Job": "Bar Şefi",
@@ -100,7 +100,117 @@
     "statu": "supervisor"
   },
   {
-    "id": 3,
+    "id": 10,
+    "name": "Burak",
+    "surname": "T",
+    "Job": "Garson",
+    "age": 21,
+    "score": 1,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 11,
+    "name": "Bercan",
+    "surname": "Çalı",
+    "Job": "Barista",
+    "age": 21,
+    "score": 2,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 12,
+    "name": "Enes Can",
+    "surname": "Baştürk",
+    "Job": "Garson",
+    "age": 20,
+    "score": 1,
+    "region": "Sempati Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 13,
+    "name": "Sebahat",
+    "surname": "Güvenç",
+    "Job": "Bar Şefi",
+    "age": 99,
+    "score": 1,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "supervisor"
+  },
+  {
+    "id": 14,
+    "name": "Burak",
+    "surname": "T",
+    "Job": "Garson",
+    "age": 21,
+    "score": 1,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 15,
+    "name": "Mahmut",
+    "surname": "Abi",
+    "Job": "Müdür",
+    "age": 99,
+    "score": 1,
+    "region": "Sempati Sosyal Tesisleri",
+    "statu": "Manager"
+  },
+  {
+    "id": 16,
+    "name": "Emirhan",
+    "surname": "Demirci",
+    "Job": "Garson",
+    "age": 24,
+    "score": 1,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 17,
+    "name": "Efkan",
+    "surname": "Türkmen",
+    "Job": "Garson",
+    "age": 22,
+    "score": 1,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 18,
+    "name": "Fatih",
+    "surname": "Yıldız",
+    "Job": "Garson",
+    "age": 21,
+    "score": 1,
+    "region": "Sempati Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 19,
+    "name": "Enes Can",
+    "surname": "Baştürk",
+    "Job": "Garson",
+    "age": 20,
+    "score": 1,
+    "region": "Sempati Sosyal Tesisleri",
+    "statu": "staff"
+  },
+  {
+    "id": 20,
+    "name": "Sebahat",
+    "surname": "Güvenç",
+    "Job": "Bar Şefi",
+    "age": 99,
+    "score": 1,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "supervisor"
+  },
+  {
+    "id": 21,
     "name": "Burak",
     "surname": "T",
     "Job": "Garson",

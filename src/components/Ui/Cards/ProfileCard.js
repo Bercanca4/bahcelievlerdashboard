@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { useTimer } from "react-timer-hook";
-import { IoMdSettings } from "react-icons/io";
 import "../../../assets/CSS/spin.css";
 import Timer from "../../Side/Timer";
 
@@ -55,15 +54,9 @@ function ProfileCard() {
                   {fakeuser.username + " " + fakeuser.usersurname}
                 </label>
               </div>
-              <div>
-                <label className="w-[70px] text-white opacity-40 truncate cursor-pointer ">
-                  {fakeuser.job}
-                </label>
-              </div>
             </div>
 
             <div className="flex items-center justify-start ">
-              {" "}
               <div className="flex items-center justify-center gap-x-1">
                 <div className="flex items-center justify-center gap-x-3">
                   <div className="flex items-center justify-center gap-x-1">
@@ -75,7 +68,7 @@ function ProfileCard() {
                       <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                     </span>
                   </div>
-                  <span className="text-sm text-white">
+                  <span className="text-sm text-white py-1">
                     <Timer />
                   </span>
                 </div>

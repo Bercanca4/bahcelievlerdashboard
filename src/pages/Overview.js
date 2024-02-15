@@ -108,10 +108,6 @@ function Overview() {
           </select>
         </div>
       </div>
-
-      <div className="w-[1500px] h-[750px] rounded-xl  mx-auto  my-[4%]">
-        <UserCard />
-      </div>
     </div>
   );
 }

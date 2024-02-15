@@ -1,5 +1,4 @@
 // App.js
-
 import React from "react";
 import LeftSide from "./components/Side/LeftSide";
 import Logo from "./components/Ui/Logo";
@@ -7,6 +6,9 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Side/Navbar";
 import Overview from "./pages/Overview";
 import ProfileCard from "../src/components/Ui/Cards/ProfileCard";
+import Personel from "./pages/Personel";
+import Error from "./pages/Error";
+import Notfound from "./pages/Notfound";
 function App() {
   return (
     <div className="flex h-screen">
@@ -30,6 +32,9 @@ function App() {
         <div className="p-4 my-[4%]">
           <Routes>
             <Route path="/" element={<Overview />} />
+            <Route path="/personel" element={<Personel />} />
+            <Route path="/error" element={<Error />} />
+            <Route path="*" element={<Notfound />} />
           </Routes>
         </div>
       </div>
