@@ -9,7 +9,7 @@ function MinCard({ title, data, customIcon, bgColor, start }) {
         <label className="text-[18px] font-semibold select-none text-white">
           {title}{" "}
         </label>
-        <div className="rounded-full border text-black w-[55px] h-[55px]   bg-white flex items-center justify-center">
+        <div className="rounded-full border text-black w-[55px] h-[55px]  bg-white flex items-center justify-center">
           {customIcon}
         </div>
       </div>

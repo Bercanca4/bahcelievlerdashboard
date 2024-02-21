@@ -1,43 +1,58 @@
 // App.js
 import React from "react";
-import LeftSide from "./components/Side/LeftSide";
-import Logo from "./components/Ui/Logo";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Side/Navbar";
+import Login from "./pages/login/login";
 import Overview from "./pages/Overview";
-import ProfileCard from "../src/components/Ui/Cards/ProfileCard";
 import Personel from "./pages/Personel";
 import Error from "./pages/Error";
 import Notfound from "./pages/Notfound";
+import Navbar from "./components/Side/Navbar";
+import Logo from "./components/Ui/Logo";
+import LeftSide from "./components/Side/LeftSide";
+import ProfileCard from "../src/components/Ui/Cards/ProfileCard";
+
 function App() {
   return (
-    <div className="flex h-screen">
-      {/* Sol Kenar */}
-      <aside className="w-[279px] flex-shrink-0 bg-[#1E2535] fixed h-full">
-        <aside className="p-6 ">
-          <Logo />
-          <LeftSide />
-        </aside>
+    <div>
+      <Routes>
+        {/* Login ekranı */}
+        <Route path="/login" element={<Login />} />
+        <Route path="/error" element={<Error />} />
 
-        <ProfileCard />
-      </aside>
+        {/* Diğer sayfalar */}
+        <Route
+          path="/*"
+          element={
+            <div className="flex h-screen">
+              {/* Sol Kenar */}
+              <aside className="w-[279px] flex-shrink-0 bg-[#1E2535] fixed h-full">
+                <aside className="p-6 ">
+                  <Logo />
+                  <LeftSide />
+                </aside>
 
-      {/* Sağ Taraf İçerik */}
-      <div className="flex-1 w-full h-full  ml-[279px]">
-        {/* Navbar */}
-        <Navbar />
-        <hr />
+                <ProfileCard />
+              </aside>
 
-        {/* Ana Ekran */}
-        <div className="p-4 my-[4%]">
-          <Routes>
-            <Route path="/" element={<Overview />} />
-            <Route path="/personel" element={<Personel />} />
-            <Route path="/error" element={<Error />} />
-            <Route path="*" element={<Notfound />} />
-          </Routes>
-        </div>
-      </div>
+              {/* Sağ Taraf İçerik */}
+              <div className="flex-1 w-full h-full  ml-[279px]">
+                {/* Navbar */}
+                <Navbar />
+                <hr />
+
+                {/* Ana Ekran */}
+                <div className="p-4 my-[4%]">
+                  <Routes>
+                    <Route path="/" element={<Overview />} />
+                    <Route path="/personel" element={<Personel />} />
+                    <Route path="*" element={<Notfound />} />
+                  </Routes>
+                </div>
+              </div>
+            </div>
+          }
+        />
+      </Routes>
     </div>
   );
 }

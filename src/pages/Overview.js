@@ -4,7 +4,6 @@ import { HiUsers } from "react-icons/hi";
 import { MdOutlineContactPage } from "react-icons/md";
 import { BsPersonWorkspace } from "react-icons/bs";
 import { CgOrganisation } from "react-icons/cg";
-import UserCard from "../components/Ui/Cards/UserCard";
 import InfoCard from "../components/Ui/Cards/InfoCard";
 import { FaCircleExclamation } from "react-icons/fa6";
 import { MdAnnouncement } from "react-icons/md";
