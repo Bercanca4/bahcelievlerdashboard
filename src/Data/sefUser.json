@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "name": "Bercan",
+    "surname": "Çalı",
+    "Job": "şef",
+    "age": 21,
+    "score": 2,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "chef"
+  },
+  {
+    "id": 1,
+    "name": "Enes Can",
+    "surname": "Baştürk",
+    "Job": "şef",
+    "age": 20,
+    "score": 1,
+    "region": "Sempati Sosyal Tesisleri",
+    "statu": "chef"
+  }
+]

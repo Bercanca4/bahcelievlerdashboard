@@ -8,6 +8,8 @@ import InfoCard from "../components/Ui/Cards/InfoCard";
 import { FaCircleExclamation } from "react-icons/fa6";
 import { MdAnnouncement } from "react-icons/md";
 import { FaRegSmileBeam } from "react-icons/fa";
+import GraphSide from "../components/Ui/GraphSide";
+import GraphSideS from "../components/Ui/GraphSideS";
 
 const data = [
   {
@@ -63,7 +65,7 @@ const statuinfo = [
 ];
 
 function Overview() {
-  const [selectedOption, setSelectedOption] = useState("Attention");
+  const [selectedOption, setSelectedOption] = useState("null");
 
   const handleSelectChange = (e) => {
     setSelectedOption(e.target.value);
@@ -71,7 +73,7 @@ function Overview() {
 
   return (
     <div>
-      <div className="w-[1500px] mx-auto flex items-center  justify-center gap-x-5 my-[4%]">
+      <div className="w-[1500px] mx-auto flex items-center  justify-center gap-x-5 my-[2%]">
         {data.map((item, index) => (
           <Mincard
             key={index}
@@ -105,6 +107,15 @@ function Overview() {
             <option value="Attention">Bildiri</option>
             <option value="Announcement">Duyuru</option>
           </select>
+        </div>
+      </div>
+
+      <div className="w-[1500px] gap-x-3  mx-auto  flex ">
+        <div className="w-full p-2 border flex items-center justify-center rounded-xl shadow-xl">
+          <GraphSide />
+        </div>
+        <div className="w-full p-2 border flex items-end justify-center rounded-xl shadow-xl">
+          <GraphSideS />
         </div>
       </div>
     </div>

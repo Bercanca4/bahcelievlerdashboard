@@ -10,13 +10,14 @@ import Navbar from "./components/Side/Navbar";
 import Logo from "./components/Ui/Logo";
 import LeftSide from "./components/Side/LeftSide";
 import ProfileCard from "../src/components/Ui/Cards/ProfileCard";
-
+import Register from "./pages/login/register";
 function App() {
   return (
     <div>
       <Routes>
         {/* Login ekranı */}
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/error" element={<Error />} />
 
         {/* Diğer sayfalar */}

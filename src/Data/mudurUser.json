@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "name": "Mahmut",
+    "surname": "Abi",
+    "Job": "Müdür",
+    "age": 40,
+    "score": 1,
+    "region": "Kuleli Sosyal Tesisleri",
+    "statu": "Boss"
+  },
+  {
+    "id": 1,
+    "name": "test ",
+    "surname": "test ",
+    "Job": "Müdür",
+    "age": 40,
+    "score": 1,
+    "region": "Sempati Sosyal Tesisleri",
+    "statu": "Boss"
+  }
+]
